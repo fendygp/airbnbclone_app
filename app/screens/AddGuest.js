@@ -87,7 +87,7 @@ const AddGuest = (props) => {
             <Button.IconButton
               iconName="search"
               label="다음"
-              color={colors.red}
+              color={colors.green}
               disabled={false}
               onPress={() => onNavigate()}
             />
@@ -103,7 +103,7 @@ const AddGuest = (props) => {
             <Button.BtnContain
               icon="search"
               label="next"
-              color={colors.red}
+              color={colors.green}
               size="small"
               disabled={false}
               onPress={() => onNavigate()}

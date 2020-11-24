@@ -27,7 +27,7 @@ const AccountItems = [
   {
     title: "Help",
     data: [
-      {title: "How to use Airbnb", icon: "question", screen: "Hosting" },
+      {title: "How to use GreenHouse", icon: "question", screen: "Hosting" },
     ],
   },
 ];

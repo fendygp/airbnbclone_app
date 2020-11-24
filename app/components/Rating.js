@@ -9,7 +9,7 @@ import * as Typography from "../config/Typography";
 const Rating = ({ rating, reviews }) => {
   return (
     <Container>
-      <FontAwesome name="star" color={colors.red} />
+      <FontAwesome name="star" color={colors.green} />
       <Typography.P>{rating}</Typography.P>
       <Typography.P color={colors.gray}>{` (${reviews})`}</Typography.P>
     </Container>

@@ -18,7 +18,7 @@ const HostingStep1 = ({ navigation }) => {
       <Main>
         <Top>
           <Header>
-            <Typography.H color={colors.red}>Register your accommodation</Typography.H>
+            <Typography.H color={colors.green}>Register your accommodation</Typography.H>
             <View style={{ marginTop: 14, marginBottom: 20 }}>
               <Typography.P colors={colors.gray}>
               Free registration of various types of space, from one room to the villa,
@@ -28,7 +28,7 @@ const HostingStep1 = ({ navigation }) => {
             <BtnContainer>
               <Button.BtnContain
                 label="registration"
-                color={colors.red}
+                color={colors.green}
                 onPress={() => navigation.navigate("Hosting")}
               />
             </BtnContainer>

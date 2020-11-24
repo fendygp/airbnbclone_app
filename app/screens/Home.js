@@ -129,8 +129,8 @@ const Home = (props) => {
         </Modal>
         <HLine />
         <HeroText>
-          <Typography.H color={colors.red}>
-          Explore nearby destinations with Airbnb
+          <Typography.H color={colors.green}>
+          Explore nearby destinations with GreenHouse
           </Typography.H>
         </HeroText>
         <FlatList

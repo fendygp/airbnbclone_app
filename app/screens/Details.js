@@ -122,9 +122,9 @@ const Details = ({ navigation, route }) => {
               icon="star"
               label="4.65"
               label2="(305)"
-              color={colors.red}
+              color={colors.green}
             />
-            <IconLabel.MCI icon="medal" label="Superhost" color={colors.red} />
+            <IconLabel.MCI icon="medal" label="Superhost" color={colors.green} />
             <Typography.SP>Denpasar, Bali, Indonesia</Typography.SP>
           </Subheading>
           <HLine />
@@ -247,13 +247,13 @@ const Details = ({ navigation, route }) => {
             icon="star"
             label="4.65"
             label2="(305)"
-            color={colors.red}
+            color={colors.green}
           />
         </View>
         <BtnContainer>
           <Button.BtnContain
             label="Reservation"
-            color={colors.red}
+            color={colors.green}
             onPress={() => navigation.navigate("Reserve_1", listing)}
           />
         </BtnContainer>

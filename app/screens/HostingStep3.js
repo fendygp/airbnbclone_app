@@ -73,7 +73,7 @@ const HostingStep3 = (props) => {
             <Step style={{ paddingTop: 20 }}>
               <Button.BtnText
                 label="Using current location"
-                color={colors.red}
+                color={colors.green}
                 onPress={() => getCurrLocation()}
               />
             </Step>
@@ -134,7 +134,7 @@ const HostingStep3 = (props) => {
         <BtnContainer>
           <Button.BtnContain
             label="next"
-            color={colors.red}
+            color={colors.green}
             size="small"
             onPress={() => onNavigate()}
           />

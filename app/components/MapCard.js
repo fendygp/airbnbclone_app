@@ -30,7 +30,7 @@ const MapCard = ({
           <Title numberOfLines={1}>{title}</Title>
           <Price>{`$${subtitle}`}</Price>
           <Rating>
-            <FontAwesome name="star" color={Colors.red} />
+            <FontAwesome name="star" color={Colors.green} />
             <SP>{rating}</SP>
             <SP>{`(${reviews})`}</SP>
           </Rating>

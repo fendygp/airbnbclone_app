@@ -7,6 +7,6 @@ export default {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    primary: Colors.red,
+    primary: Colors.green,
   },
 };

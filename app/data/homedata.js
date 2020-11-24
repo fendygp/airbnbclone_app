@@ -49,7 +49,7 @@ export const footerdata = [
     data: [
       {
         title: "A message from CEO Brian Cesky",
-        detail: "View Airbnb CEO's video message",
+        detail: "View GreenHouse CEO's video message",
       },
       {
         title: "Resources to help with hosting",

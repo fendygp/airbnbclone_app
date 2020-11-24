@@ -13,14 +13,14 @@ const WelcomeScreen = ({ navigation }) => {
     <Container>
       <Main>
         <Header>
-          <Logo source={require("../assets/airbnb_logo.png")}></Logo>
-          <Typography.H1 color={colors.red}>Welcome to Airbnb</Typography.H1>
+          <Logo source={require("../assets/rent-sign.png")}></Logo>
+          <Typography.H1 color={colors.green}>Welcome to GreenHouse</Typography.H1>
         </Header>
         <Options>
           <Btn>
             <Button.BtnContain
               label="Continue with Google"
-              color={colors.red}
+              color={colors.green}
               labelcolor="white"
               onPress={() => console.log("tbd")}
             />
@@ -28,8 +28,8 @@ const WelcomeScreen = ({ navigation }) => {
           <Btn>
             <Button.BtnOutline
               label="Create Account"
-              color={colors.red}
-              labelcolor={colors.red}
+              color={colors.green}
+              labelcolor={colors.green}
               fontSize={13}
               onPress={() => navigation.navigate("Signup")}
             />
@@ -38,7 +38,7 @@ const WelcomeScreen = ({ navigation }) => {
             <Center>
               <Button.BtnText
                 label="Login"
-                color={colors.red}
+                color={colors.green}
                 onPress={() => navigation.navigate("Login")}
               />
             </Center>
@@ -47,7 +47,7 @@ const WelcomeScreen = ({ navigation }) => {
         <Terms>
           <Typography.P color={colors.gray}>
             By tapping Continue, Create Account or More options, I agree to
-            Airbnb's Terms of Service, Payments Terms of Service, Privacy Policy
+            GreenHouse's Terms of Service, Payments Terms of Service, Privacy Policy
             and Nondiscrimination Policy.
           </Typography.P>
         </Terms>

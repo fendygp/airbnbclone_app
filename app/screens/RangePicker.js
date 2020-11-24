@@ -28,14 +28,14 @@ const RangePicker = (props) => {
     const end = moment.unix(endTimestamp);
     while (end.isAfter(start)) {
       period[start.format("YYYY-MM-DD")] = {
-        color: colors.red,
+        color: colors.green,
         textColor: "white",
         startingDay: moment(start).unix() === startTimestamp,
       };
       start = start.add(1, "days");
     }
     period[end.format("YYYY-MM-DD")] = {
-      color: colors.red,
+      color: colors.green,
       textColor: "white",
       endingDay: true,
     };
@@ -50,7 +50,7 @@ const RangePicker = (props) => {
     if (_isEmpty(startDay) || (!_isEmpty(startDay) && !_isEmpty(endDay))) {
       const period = {
         [dateString]: {
-          color: colors.red,
+          color: colors.green,
           textColor: "white",
           // endingDay: true,
           startingDay: true,
@@ -107,7 +107,7 @@ const RangePicker = (props) => {
           {periodArrays.length > 1 ? (
             <Button.BtnContain
               label="next"
-              color={colors.red}
+              color={colors.green}
               size="small"
               disabled={false}
               onPress={() => onNavigate()}

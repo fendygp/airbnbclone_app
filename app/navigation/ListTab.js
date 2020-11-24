@@ -17,7 +17,7 @@ import Colors from "../config/colors";
 const Tab = createBottomTabNavigator();
 
 const ListTab = () => (
-  <Tab.Navigator tabBarOptions={{ activeTintColor: Colors.red }}>
+  <Tab.Navigator tabBarOptions={{ activeTintColor: Colors.green }}>
     <Tab.Screen
       name="Search"
       component={Listings}

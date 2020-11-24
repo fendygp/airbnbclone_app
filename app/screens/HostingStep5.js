@@ -72,7 +72,7 @@ const HostingStep5 = (props) => {
         <BtnContainer>
           <Button.BtnContain
             label="end"
-            color={colors.red}
+            color={colors.green}
             size="small"
             onPress={() => onNavigate()}
           />

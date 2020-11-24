@@ -11,7 +11,7 @@ const SubmitBtn = ({ title }) => {
   return (
     <Button.BtnContain
       label={title}
-      color={colors.red}
+      color={colors.green}
       labelcolor="white"
       onPress={handleSubmit}
     />

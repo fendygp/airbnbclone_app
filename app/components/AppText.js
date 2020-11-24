@@ -9,7 +9,7 @@ export const WelcomeText = ({ children }) => {
 
 const WelcomeStyles = StyleSheet.create({
   text: {
-    color: colors.red,
+    color: colors.green,
     marginTop: 20,
     ...Platform.select({
       ios: {

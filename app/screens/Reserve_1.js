@@ -67,7 +67,7 @@ const Reserve_1 = (props) => {
                 icon="star"
                 label="4.65"
                 label2="(305)"
-                color={colors.red}
+                color={colors.green}
               />
             </View>
             <CoverImg source={{ uri: listing.images[0] }} resizeMode="cover" />
@@ -127,7 +127,7 @@ const Reserve_1 = (props) => {
         </MainWrapper>
       </Detail>
       <Reserve>
-        <Button.BtnContain label="Make a reservation" color={colors.red} />
+        <Button.BtnContain label="Make a reservation" color={colors.green} />
       </Reserve>
     </Container>
   );

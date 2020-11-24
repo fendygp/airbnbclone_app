@@ -32,7 +32,7 @@ const Card = ({ images, rating, reviews, subtitle, title, onPress }) => {
             marginTop: 10,
           }}
         >
-          <FontAwesome name="star" color={Colors.red} />
+          <FontAwesome name="star" color={Colors.green} />
           <SP>{rating}</SP>
           <SP>{`(${reviews})`}</SP>
         </View>
