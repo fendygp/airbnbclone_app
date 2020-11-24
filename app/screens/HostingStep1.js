@@ -27,7 +27,7 @@ const HostingStep1 = ({ navigation }) => {
             </View>
             <BtnContainer>
               <Button.BtnContain
-                label="등록하기"
+                label="registration"
                 color={colors.red}
                 onPress={() => navigation.navigate("Hosting")}
               />

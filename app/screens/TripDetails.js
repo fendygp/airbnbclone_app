@@ -62,15 +62,15 @@ const TripDetails = ({ route }) => {
         <HLine />
         <Host>
           <List.UserList
-            title="호스트: Jinah Lee님"
-            subtitle="회원 가입일: 2018년 12월"
+            title="Hosted by Jinah Lee"
+            subtitle="Member since: Dec 2018"
             // image={require("../assets/profile.jpg")}
           ></List.UserList>
         </Host>
         <HLine />
         <Rules>
           <View>
-            <Typography.Cap color={colors.gray}>규칙</Typography.Cap>
+            <Typography.Cap color={colors.gray}>rule</Typography.Cap>
             <Typography.P>-Smoke free</Typography.P>
             <Typography.P>-No pets allowed</Typography.P>
             <Typography.P>-Self check-in / out</Typography.P>

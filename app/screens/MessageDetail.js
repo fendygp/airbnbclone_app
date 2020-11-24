@@ -82,7 +82,7 @@ const MessageDetail = () => {
 
         <InputArea>
           <TextInput
-            placeholder="메세지 작성하기"
+            placeholder="Write a message"
             value={message.msg}
             onChangeText={(text) => handleChange(text)}
             onSubmitEditing={sendMessage}

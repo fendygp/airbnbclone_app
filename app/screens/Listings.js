@@ -42,7 +42,7 @@ const Listings = (props) => {
             <Header>
               <View>
                 <Typography.SP>300+ Accommodations</Typography.SP>
-                <Typography.H1>{props.state.city}의 숙소</Typography.H1>
+                <Typography.H1>{props.state.city}</Typography.H1>
               </View>
               <TouchableOpacity>
                 <BtnContainer>
@@ -69,7 +69,7 @@ const Listings = (props) => {
         <MapBtnWrapper>
           <Button.FloatingButton
             iconName="map-o"
-            label="지도"
+            label="map"
             onPress={() => props.navigation.navigate("ListMap", rooms)}
           />
         </MapBtnWrapper>

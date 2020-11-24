@@ -16,9 +16,9 @@ const Trip = ({ navigation }) => {
     let date = item.check_in_date;
     let parseDate = date.split("-");
     let newDate = {
-      year: `${parseDate[0]}년`,
-      month: `${parseDate[1]}월`,
-      day: `${parseDate[2]}일`,
+      year: `${parseDate[0]} year`,
+      month: `${parseDate[1]} month`,
+      day: `${parseDate[2]} day`,
     };
     return newDate.year + " " + newDate.month;
   };
@@ -40,7 +40,7 @@ const Trip = ({ navigation }) => {
               sub={handleDate(item)}
               title={item.city}
               secondary={item.title}
-              action="여행 계획 보기"
+              action="View travel plans"
               onPress={() => navigation.navigate("TripDetails", item)}
             />
           </View>

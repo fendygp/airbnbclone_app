@@ -32,10 +32,10 @@ const ListMap = ({ navigation, route, closeBtn, showListing }) => {
   const initialState = {
     rooms,
     region: {
-      latitude: 33.392358,
-      longitude: 126.535918,
-      latitudeDelta: 0.7,
-      longitudeDelta: 0.7,
+      latitude: -8.409518,
+      longitude: 115.188919,
+      latitudeDelta: 1,
+      longitudeDelta: 1,
     },
   };
 

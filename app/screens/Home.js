@@ -130,7 +130,7 @@ const Home = (props) => {
         <HLine />
         <HeroText>
           <Typography.H color={colors.red}>
-            가까운 여행지, 에어비앤비와 탐험해보세요
+          Explore nearby destinations with Airbnb
           </Typography.H>
         </HeroText>
         <FlatList
@@ -143,7 +143,7 @@ const Home = (props) => {
       </Main>
       <Footer>
         <HeroText>
-          <Typography.H4 color={colors.gray}>최신정보 확인하기</Typography.H4>
+          <Typography.H4 color={colors.gray}>Checking the latest information</Typography.H4>
         </HeroText>
 
         <FlatList

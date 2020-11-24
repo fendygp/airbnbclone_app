@@ -23,7 +23,7 @@ export const homedata = [
 export const InitialCities = [
   {title: "Jakarta" },
   {title: "Yogyakarta" },
-  {title: "Surabaya" },
+  {title: "Denpasar" },
 ];
 
 export const footerdata = [

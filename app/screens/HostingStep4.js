@@ -34,7 +34,7 @@ const HostingStep4 = (props) => {
            Get your guest's attention by choosing a title that highlights the features and strengths of your listing
          </Sub1>
         <Step>
-          <Text>제목</Text>
+          <Text>title</Text>
           <DefaultInput
             name="title"
             value={title}

@@ -32,7 +32,7 @@ const AddGuest = (props) => {
         <Flex>
           <View>
             <Typography.H3>Adult</Typography.H3>
-            <Typography.P color={colors.gray}>만 13세 이상</Typography.P>
+            <Typography.P color={colors.gray}>13 years old or older</Typography.P>
           </View>
 
           <View style={{ width: "30%" }}>
@@ -47,7 +47,7 @@ const AddGuest = (props) => {
         <Flex>
           <View>
             <Typography.H3>Child</Typography.H3>
-            <Typography.P color={colors.gray}>2-12세</Typography.P>
+            <Typography.P color={colors.gray}>2-12 years old</Typography.P>
           </View>
 
           <View style={{ width: "30%" }}>
@@ -62,7 +62,7 @@ const AddGuest = (props) => {
         <Flex>
           <View>
             <Typography.H3>Infant</Typography.H3>
-            <Typography.P color={colors.gray}>2세 미만</Typography.P>
+            <Typography.P color={colors.gray}>Under 2 years old</Typography.P>
           </View>
 
           <View style={{ width: "30%" }}>
@@ -102,7 +102,7 @@ const AddGuest = (props) => {
           {adult > 0 ? (
             <Button.BtnContain
               icon="search"
-              label="다음"
+              label="next"
               color={colors.red}
               size="small"
               disabled={false}
@@ -111,7 +111,7 @@ const AddGuest = (props) => {
           ) : (
             <Button.BtnContain
               icon="search"
-              label="다음"
+              label="next"
               color={colors.lightgray}
               size="small"
               disabled={true}

@@ -22,10 +22,10 @@ import {
 } from "../store/host";
 
 const categories = [
-  { label: "아파트", value: 1 },
-  { label: "주택", value: 2 },
-  { label: "별채", value: 3 },
-  { label: "부티크 호텔", value: 4 },
+   {label: "apartment", value: 1 },
+   {label: "House", value: 2 },
+   {label: "Separate building", value: 3 },
+   {label: "Boutique Hotel", value: 4 },
 ];
 
 const Hosting = (props) => {
@@ -45,29 +45,29 @@ const Hosting = (props) => {
   return (
     <Container>
       <Main>
-        <Typography.H>숙소 등록을 시작해볼까요?</Typography.H>
+        <Typography.H>Shall we start registering?</Typography.H>
         <AppForm
           initialValues={{ name: "", price: "", description: "" }}
           onSubmit={(values) => console.log(values)}
         >
           <Step style={{ paddingTop: 20 }}>
-            <Typography.Sub1>등록하실 숙소 종류는 무엇인가요?</Typography.Sub1>
+            <Typography.Sub1>What type of accommodation would you like to register?</Typography.Sub1>
             <InputWrapper>
               <AppPicker
                 selectedItem={category}
                 onSelectItem={(item) => setCategory(item)}
                 items={categories}
-                placeholder="한가지 유형을 선택하세요"
+                placeholder="Please choose one type"
                 icon="chevron-down"
               />
             </InputWrapper>
           </Step>
           <Step>
             <Typography.Sub1>
-              얼마나 많은 인원이 숙박할 수 있나요?
+            How many people can stay?
             </Typography.Sub1>
             <Flex>
-              <Typography.P colors={colors.gray}>최대 숙박 인원</Typography.P>
+              <Typography.P colors={colors.gray}>Maximum number of guests</Typography.P>
               <View style={{ width: "30%" }}>
                 <Counter
                   result={guest}
@@ -79,10 +79,10 @@ const Hosting = (props) => {
           </Step>
           <Step>
             <Typography.Sub1>
-              게스트가 사용할 수 있는 침실은 몇 개인가요?
+            How many bedrooms can guests use?
             </Typography.Sub1>
             <Flex>
-              <Typography.P colors={colors.gray}>침실</Typography.P>
+              <Typography.P colors={colors.gray}>bedroom</Typography.P>
               <View style={{ width: "30%" }}>
                 <Counter
                   result={bedroom}
@@ -94,10 +94,10 @@ const Hosting = (props) => {
           </Step>
           <Step>
             <Typography.Sub1>
-              게스트가 사용할 수 있는 욕실은 몇 개인가요?
+            How many bathrooms can guests use?
             </Typography.Sub1>
             <Flex>
-              <Typography.P colors={colors.gray}>욕실</Typography.P>
+              <Typography.P colors={colors.gray}>bathroom</Typography.P>
               <View style={{ width: "30%" }}>
                 <Counter
                   result={bath}
@@ -113,7 +113,7 @@ const Hosting = (props) => {
         <Left></Left>
         <BtnContainer>
           <Button.BtnContain
-            label="다음"
+            label="next"
             size="small"
             color={colors.red}
             onPress={() => onNavigate()}

@@ -71,7 +71,7 @@ const HostingStep5 = (props) => {
         <Left></Left>
         <BtnContainer>
           <Button.BtnContain
-            label="마침"
+            label="end"
             color={colors.red}
             size="small"
             onPress={() => onNavigate()}

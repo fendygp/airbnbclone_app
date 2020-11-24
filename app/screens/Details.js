@@ -124,8 +124,8 @@ const Details = ({ navigation, route }) => {
               label2="(305)"
               color={colors.red}
             />
-            <IconLabel.MCI icon="medal" label="슈퍼호스트" color={colors.red} />
-            <Typography.SP>Cheju, 제주도, 한국</Typography.SP>
+            <IconLabel.MCI icon="medal" label="Superhost" color={colors.red} />
+            <Typography.SP>Denpasar, Bali, Indonesia</Typography.SP>
           </Subheading>
           <HLine />
           <Section>
@@ -141,13 +141,13 @@ const Details = ({ navigation, route }) => {
               <IconLabel.FA icon="bed" label="Bed" qty={listing.beds} />
             </Flex>
             <Typography.P>
-            A quiet, Jeju-like stone wall located in the west of Jeju,
+            A quiet, Denpasar-like stone wall located in the west of Denpasar,
                Just in front of Gwideok-ri Beach, where you can see the wonderful sea from your accommodation,
-               Accommodation. 30 minutes by car from Jeju Airport, 8 minutes on foot
+               Accommodation. 30 minutes by car from Denpasar Airport, 8 minutes on foot
                There is a bus stop on the street, and a convenience store is a 10-minute walk away.
              </Typography.P>
             <Button.BtnTxtUnderline
-              label="더 보기"
+              label="View more"
               color={colors.gray}
               onPress={() => navigation.navigate("Description", listing)}
             />
@@ -177,7 +177,7 @@ const Details = ({ navigation, route }) => {
               iconcolor={colors.gray}
             />
             <Button.BtnTxtUnderline
-              label="더 보기"
+              label="View more"
               color={colors.gray}
               onPress={() => navigation.navigate("Amenities", listing)}
             />
@@ -219,7 +219,7 @@ const Details = ({ navigation, route }) => {
           />
           <MarginContainer>
             <Button.BtnTxtUnderline
-              label="더 보기"
+              label="View more"
               color={colors.gray}
               onPress={() => navigation.navigate("Reviews", listing)}
             />
@@ -230,8 +230,8 @@ const Details = ({ navigation, route }) => {
           <MarginContainer>
             <List.UserList
               image={null}
-              title="호스트: Jinah Lee님"
-              secondary="회원 가입일: 2018년 12월"
+              title="Host: Jinah Lee"
+              secondary="Member since: December 2018"
             />
           </MarginContainer>
         </Section>
@@ -240,7 +240,7 @@ const Details = ({ navigation, route }) => {
         <View>
           <View style={{ display: "flex", flexDirection: "row" }}>
             <Typography.Sub2>${listing.price}</Typography.Sub2>
-            <Typography.Sub1 colors={colors.darkgray}> /박</Typography.Sub1>
+            <Typography.Sub1 colors={colors.darkgray}> /days</Typography.Sub1>
           </View>
 
           <IconLabel.FA
@@ -252,7 +252,7 @@ const Details = ({ navigation, route }) => {
         </View>
         <BtnContainer>
           <Button.BtnContain
-            label="예약하기"
+            label="Reservation"
             color={colors.red}
             onPress={() => navigation.navigate("Reserve_1", listing)}
           />

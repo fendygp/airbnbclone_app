@@ -75,21 +75,21 @@ const Reserve_1 = (props) => {
           <HLine />
           <Flex>
             <View>
-              <Typogrpahy.Cap color={colors.gray}>체크인</Typogrpahy.Cap>
+              <Typogrpahy.Cap color={colors.gray}>check-in</Typogrpahy.Cap>
               <Typogrpahy.Sub1>{props.state.startDay}</Typogrpahy.Sub1>
             </View>
             <View>
-              <Typogrpahy.Cap color={colors.gray}>체크아웃</Typogrpahy.Cap>
+              <Typogrpahy.Cap color={colors.gray}>check-out</Typogrpahy.Cap>
               <Typogrpahy.Sub1>{props.state.endDay}</Typogrpahy.Sub1>
             </View>
             <View>
-              <Typogrpahy.Cap color={colors.gray}>게스트</Typogrpahy.Cap>
-              <Typogrpahy.Sub1>{total()}명</Typogrpahy.Sub1>
+              <Typogrpahy.Cap color={colors.gray}>guest</Typogrpahy.Cap>
+              <Typogrpahy.Sub1>{total()} persons</Typogrpahy.Sub1>
             </View>
           </Flex>
           <HLine />
           <Flex>
-            <Typogrpahy.Sub1>출장인가요?</Typogrpahy.Sub1>
+            <Typogrpahy.Sub1>Is it a business trip?</Typogrpahy.Sub1>
             <Switch
               trackColor={{ false: colors.faintgray, true: colors.blue }}
               ios_backgroundColor={colors.faintgray}
@@ -101,34 +101,33 @@ const Reserve_1 = (props) => {
           <View>
             <View style={{ marginTop: 20, marginHorizontal: 20 }}>
               <Typogrpahy.Cap color={colors.gray}>
-                수수료 및 세금 정보
+              Fee and tax information
               </Typogrpahy.Cap>
             </View>
             <Flex>
               <Typogrpahy.Sub1>
-                ${listing.price} x {calcNights()}박
+                ${listing.price} x {calcNights()} pack
               </Typogrpahy.Sub1>
               <Typogrpahy.Sub1>${calcSubtotal()}</Typogrpahy.Sub1>
             </Flex>
             <Flex>
-              <Typogrpahy.Sub1>청소비</Typogrpahy.Sub1>
+              <Typogrpahy.Sub1>Cleaning fee</Typogrpahy.Sub1>
               <Typogrpahy.Sub1>${calcCleaning()}</Typogrpahy.Sub1>
             </Flex>
             <Flex>
-              <Typogrpahy.Sub1>서비스 수수료</Typogrpahy.Sub1>
+              <Typogrpahy.Sub1>Service fee</Typogrpahy.Sub1>
               <Typogrpahy.Sub1>${calcFee()}</Typogrpahy.Sub1>
             </Flex>
             <HLine />
             <Flex>
-              <Typogrpahy.Sub1>합계</Typogrpahy.Sub1>
+              <Typogrpahy.Sub1>Total</Typogrpahy.Sub1>
               <Typogrpahy.Sub1>${calcTotal()}</Typogrpahy.Sub1>
             </Flex>
           </View>
         </MainWrapper>
       </Detail>
       <Reserve>
-        <Button.BtnContain label="예약하기" color={colors.red} />
-        {/* 액션 보내기 */}
+        <Button.BtnContain label="Make a reservation" color={colors.red} />
       </Reserve>
     </Container>
   );

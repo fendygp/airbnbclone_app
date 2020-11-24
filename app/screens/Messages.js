@@ -18,7 +18,7 @@ const initialMessages = [
       "Hi Jinah, thank you for your interest in my house.  My house is available ",
     image:
       "https://a0.muscache.com/im/pictures/user/e326de82-07e9-4abc-aaed-80724957ab8e.jpg",
-    dates: "2020년 5월 10일",
+    dates: "2020-05-10",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const initialMessages = [
       "Hi Jinah, thank you for your interest in my house.  My house is available ",
     image:
       "https://a0.muscache.com/im/pictures/user/d7aabb16-b2d5-45a0-8d91-a7626f566d59.jpg",
-    dates: "2020년 3월 8일",
+    dates: "2020-03-08",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const initialMessages = [
       "Hi Jinah, thank you for your interest in my house.  My house is available ",
     image:
       "https://a0.muscache.com/im/pictures/user/4771a2d4-9498-4891-96f5-af3b5473d2a4.jpg",
-    dates: "2020년 1월 20일",
+    dates: "2020-01-03",
   },
 ];
 

@@ -12,16 +12,16 @@ const Description = () => {
         <Typography.H1>Accommodation description</Typography.H1>
         <Spacing />
         <Typography.P>
-          A quiet, Jeju-like stone wall located on the west side of Jeju
+          A quiet, Denpasar-like stone wall located on the west side of Denpasar
           Just in front of Gwideok-ri beach, where you can see the sea from your accommodation,
-          Accommodation. 30 minutes by car from Jeju Airport, 8 minutes on foot
+          Accommodation. 30 minutes by car from Denpasar Airport, 8 minutes on foot
           There is a bus stop on the street, and a convenience store is a 10-minute walk away.
         </Typography.P>
         <Spacing />
         <Typography.P>
-          A quiet, Jeju-like stone wall located on the west side of Jeju
+          A quiet, Denpasar-like stone wall located on the west side of Denpasar
           Just in front of Gwideok-ri beach, where you can see the sea from your accommodation,
-          Accommodation. 30 minutes by car from Jeju Airport, 8 minutes on foot
+          Accommodation. 30 minutes by car from Denpasar Airport, 8 minutes on foot
           There is a bus stop on the street, and a convenience store is a 10-minute walk away.
         </Typography.P>
       </ScrollView>

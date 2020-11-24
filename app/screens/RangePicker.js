@@ -99,14 +99,14 @@ const RangePicker = (props) => {
         <Left>
           <Button.BtnTxtUnderline
             color={colors.gray}
-            label="건너뛰기"
+            label="skip"
             onPress={() => props.navigation.navigate("AddGuest")}
           />
         </Left>
         <BtnContainer>
           {periodArrays.length > 1 ? (
             <Button.BtnContain
-              label="다음"
+              label="next"
               color={colors.red}
               size="small"
               disabled={false}
@@ -114,7 +114,7 @@ const RangePicker = (props) => {
             />
           ) : (
             <Button.BtnContain
-              label="다음"
+              label="next"
               color={colors.lightgray}
               size="small"
               disabled={true}
