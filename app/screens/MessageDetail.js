@@ -29,15 +29,8 @@ const MessageDetail = () => {
     msg: "",
   });
   const [messageList, setMessageList] = useState([]);
-  const socket = useRef(null);
   const flat = useRef();
 
-  useEffect(() => {
-    socket.current = io("http://192.168.1.39:3001");
-    socket.current.on("message", (message) => {
-      setMessageList((prevState) => [...prevState, message]);
-    });
-  }, []);
 
   const handleChange = (text) => {
     let newMessage = { ...message };
@@ -47,7 +40,6 @@ const MessageDetail = () => {
   };
 
   const sendMessage = () => {
-    socket.current.emit("message", message);
     setMessageList((prevState) => [...prevState, message]);
     console.log(messageList);
     setMessage("");
